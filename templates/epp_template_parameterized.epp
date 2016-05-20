@@ -1,0 +1,5 @@
+<%- | String $local_variable
+| -%>
+This template has the  value of the local variable passed in as a parameter.
+
+Local variable: $local_variable
