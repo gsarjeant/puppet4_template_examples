@@ -18,8 +18,8 @@ class puppet4_template_examples{
   }  
 
   # EPP Template Example - pass param
-  File { '/tmp/erb_template.txt':
-    content => epp('puppet4_template_examples/erb_template.epp', {
+  File { '/tmp/epp_template_parameterized.txt':
+    content => epp('puppet4_template_examples/epp_template_parameterized.epp', {
                  'local_variable' => $local_variable
                } ),
   }  
